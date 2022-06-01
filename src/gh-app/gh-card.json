@@ -1,0 +1,29 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "GH - Card",
+    "fetch": {
+      "targetFunction": "gh-card",
+      "objectTypes": [
+        {
+          "name": "contacts",
+          "propertiesToSend": [],
+          "actions":[]
+        }
+      ]
+    },
+    "display": {
+      "properties": [
+        {
+          "name": "data",
+          "label": "GH-Card-Data",
+          "dataType": "STRING",
+          "options": []
+        }
+      ]
+    },
+    "actions": {
+      "baseUrls": []
+    }
+  }
+}
