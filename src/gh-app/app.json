@@ -1,0 +1,19 @@
+{
+  "name": "gh-app",
+  "description": "",
+  "scopes": [
+    "oauth",
+    "crm.objects.contacts.read",
+    "crm.objects.contacts.write"
+  ],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "./gh-card.json"
+        }
+      ]
+    }
+  }
+}
