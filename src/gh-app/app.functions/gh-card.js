@@ -2,7 +2,7 @@ exports.main = async (context = {}, sendResponse) => {
   const staticCard = {
     objectId: 1,
     title: 'Sample data',
-    data: "Some random data to display",
+    data: "Some random data to display!",
   };
 
   try {
